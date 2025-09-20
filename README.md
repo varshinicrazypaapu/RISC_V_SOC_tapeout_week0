@@ -1,4 +1,4 @@
-# RISC-V SoC Tapeout Program VSD
+# RISC-V SOC Tapeout Program VSD
 
 ## Tools Installation
 
