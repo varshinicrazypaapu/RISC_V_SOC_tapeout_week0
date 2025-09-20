@@ -1,4 +1,4 @@
-# RISC-V Reference SoC Tapeout Program VSD
+# RISC-V SoC Tapeout Program VSD
 
 ## Tools Installation
 
@@ -36,18 +36,18 @@ $ git submodule update --init --recursive
 $ make 
 $ sudo make install
 ```
-![Alt Text](Images/yosys_installation_done.jpeg)
+![Alt Text](Images/Yosys.png)
 
 #### <ins>**Iverilog**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install iverilog
 ```
-![Alt Text](Images/iverilog_status.png)
+![Alt Text](Images/Iverilog.jpeg)
 
 #### <ins>**gtkwave**</ins>
 ```bash
 $ sudo apt-get update
 $ sudo apt install gtkwave
 ```
-![Alt Text](Images/gtkwave_installation_done.jpeg) give a unique one like this to me
+![Alt Text](Images/Gtkwave.png)
