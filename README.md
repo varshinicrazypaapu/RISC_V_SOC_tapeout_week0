@@ -1005,13 +1005,13 @@ always @(*) begin
 end
 endmodule
 ```
-![in_comp_if](https://github.com/user-attachments/assets/91d1cc1d-bb3a-4ea8-a272-363414777868)
+![Alt Text](Images/Lab_1.jpg)
 
 ---
 
 ### Lab 2: Synthesis Result of Lab 1
 
-![incomp_synth](https://github.com/user-attachments/assets/691045e7-39e0-4e6c-98bd-511b501fbe35)
+![Alt Text](Images/Lab_2.jpg)
 
 ---
 
@@ -1027,13 +1027,12 @@ always @(*) begin
 end
 endmodule
 ```
-![icomp2](https://github.com/user-attachments/assets/2f614956-e4af-4d29-80ae-13a167e7831d)
-
+![Alt Text](Images/Lab_3.jpg)
 ---
 
 ### Lab 4: Synthesis Result of Lab 3
 
-![incomp2synth](https://github.com/user-attachments/assets/880ff7bb-23fb-4362-bf8f-a2494a854b53)
+![Alt Text](Images/Lab_4.jpg)
 
 ---
 
@@ -1050,13 +1049,13 @@ always @(*) begin
 end
 endmodule
 ```
-![compcase](https://github.com/user-attachments/assets/cfe97c45-a487-4f06-b4a2-74b3a61bee14)
+![Alt Text](Images/Lab_5.jpg)
 
 ---
 
 ### Lab 6: Synthesis Result of Lab 5
 
-![compcase_synth](https://github.com/user-attachments/assets/8c871511-6e55-4e80-be11-86e9efd87cad)
+![Alt Text](Images/Lab_6.jpg)
 
 ---
 
@@ -1078,7 +1077,7 @@ always @(*) begin
 end
 endmodule
 ```
-![badcase](https://github.com/user-attachments/assets/4ccf37aa-5502-4750-bedb-9b2ec0748a53)
+![Alt Text](Images/Lab_7.jpg)
 
 ---
 
@@ -1105,7 +1104,7 @@ always @(*) begin
 end
 endmodule
 ```
-![Screenshot_2025-05-28_12-39-30](https://github.com/user-attachments/assets/3f6068f3-726d-4192-b3cd-f88b3611e752)
+![Alt Text](Images/Lab_8.jpg)
 
 > **Note:** Steps to perform the above labs are shown in [Day 1](https://github.com/Ahtesham18112011/RTL_workshop/tree/main/Day_1).
 
@@ -1168,7 +1167,7 @@ endgenerate
 
 An RCA adds binary numbers using a chain of full adders. To add `n` bits, you need `n` full adders. Each carry-out connects to the carry-in of the next stage.
 
-![image](https://github.com/user-attachments/assets/f1ec27d4-b770-4d7a-a418-6435fc81f538)
+![Alt Text](Images/WhatisanRCA.jpg) 
 
 ---
 
@@ -1193,8 +1192,7 @@ always @(*) begin
 end
 endmodule
 ```
-![mux_generate](https://github.com/user-attachments/assets/80789638-c349-44a9-92f4-7597d5925c63)
-
+![Alt Text](Images/LabsonLoopsandGenerateBlocks.jpg)
 ---
 
 ### Lab 10: 8-to-1 Demux Using Case
@@ -1223,8 +1221,7 @@ always @(*) begin
 end
 endmodule
 ```
-![demux-case](https://github.com/user-attachments/assets/1836a255-e260-47de-9a8e-45899b19fc03)
-
+![Alt Text](Images/8-to-1DemuxUsingCase.jpg)
 ---
 
 ### Lab 11: 8-to-1 Demux Using For Loop
@@ -1248,8 +1245,7 @@ always @(*) begin
 end
 endmodule
 ```
-![demux-generate](https://github.com/user-attachments/assets/a5a2c004-a16f-44cd-8d80-c23f1c932e6c)
-
+![Alt Text](Images/8-to-1DemuxUsingForLoop.jpg)
 ---
 
 ### Lab 12: 8-bit Ripple Carry Adder with Generate Block
@@ -1282,7 +1278,7 @@ module fa (input a, input b, input c, output co, output sum);
     assign {co, sum} = a + b + c;
 endmodule
 ```
-![rca_org](https://github.com/user-attachments/assets/1d8876f9-e303-4a73-945e-97756a37bb73)
+![Alt Text](Images/8-bitRippleCarryAdderwithGenerateBlock.jpg)
 
 ---
 
